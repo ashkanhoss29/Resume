@@ -1,0 +1,298 @@
+Ashkan Hosseini
+
+
+
+
+Unusual cases:
+
+
+What do angles 90 and 0 degrees do to the distance traveled?:
+
+Input for angle = 0
+Output:
+Trajectory Plotter!
+Enter a speed of launch (mps): 50
+Enter the angle of launch (in degrees): 0
+Speed = 50.00 mps, Angle = 0.00 degrees = 0.00 radians
+
+Distance traveled on Earth = 0.00 m,  max height = 0.00 m
+Distance traveled on Moon = 0.00 m,  max height = 0.00 m
+Distance traveled on Mars = 0.00 m,  max height = 0.00 m
+
+Maximum distance traveled of the 3 planets = 0.00
+Maximum height reached of the 3 planets = 0.00
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, 0.00)
+ x2, y2 (0.00, 0.00)
+ x3, y3 (0.00, 0.00)
+ x4, y4 (0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, 0.00)
+ x2, y2 (0.00, 0.00)
+ x3, y3 (0.00, 0.00)
+ x4, y4 (0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, 0.00)
+ x2, y2 (0.00, 0.00)
+ x3, y3 (0.00, 0.00)
+ x4, y4 (0.00, 0.00)
+
+Press any key to continue . . .
+
+
+Input for angle = 90
+Output:
+Trajectory Plotter!
+Enter a speed of launch (mps): 50
+Enter the angle of launch (in degrees): 90
+Speed = 50.00 mps, Angle = 90.00 degrees = 1.57 radians
+
+Distance traveled on Earth = -0.00 m,  max height = 127.42 m
+Distance traveled on Moon = -0.00 m,  max height = 771.60 m
+Distance traveled on Mars = -0.00 m,  max height = 331.56 m
+
+Maximum distance traveled of the 3 planets = -0.00
+Maximum height reached of the 3 planets = 771.60
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-0.00, 95.57)
+ x2, y2 (-0.00, 127.42)
+ x3, y3 (-0.00, 95.57)
+ x4, y4 (-0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-0.00, 578.70)
+ x2, y2 (-0.00, 771.60)
+ x3, y3 (-0.00, 578.70)
+ x4, y4 (-0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-0.00, 248.67)
+ x2, y2 (-0.00, 331.56)
+ x3, y3 (-0.00, 248.67)
+ x4, y4 (-0.00, 0.00)
+
+Press any key to continue . . .
+
+
+-- You will get a distance of 0 when you input an angle of 0 or 90 degrees because the object is not going forward or backwards.
+
+
+
+
+
+
+
+
+What happens if angles larger than 90 are entered?:
+
+Input of angle = 100
+Output:
+Trajectory Plotter!
+Enter a speed of launch (mps): 50
+Enter the angle of launch (in degrees): 100
+Speed = 50.00 mps, Angle = 100.00 degrees = 1.75 radians
+
+Distance traveled on Earth = -87.16 m,  max height = 123.58 m
+Distance traveled on Moon = -527.81 m,  max height = 748.34 m
+Distance traveled on Mars = -226.80 m,  max height = 321.57 m
+
+Maximum distance traveled of the 3 planets = -87.16
+Maximum height reached of the 3 planets = 748.34
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-21.79, 92.68)
+ x2, y2 (-43.58, 123.58)
+ x3, y3 (-65.37, 92.68)
+ x4, y4 (-87.16, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-131.95, 561.25)
+ x2, y2 (-263.90, 748.34)
+ x3, y3 (-395.86, 561.25)
+ x4, y4 (-527.81, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-56.70, 241.18)
+ x2, y2 (-113.40, 321.57)
+ x3, y3 (-170.10, 241.18)
+ x4, y4 (-226.80, 0.00)
+
+Press any key to continue . . .
+
+
+-- When angles larger than 90 are entered, you will get a negative distance, because the object is going backwards.
+
+
+
+
+
+
+What happens if negative angles are entered?:
+
+Input for angle = -45
+Output:
+Trajectory Plotter!
+Enter a speed of launch (mps): 50
+Enter the angle of launch (in degrees): -45
+Speed = 50.00 mps, Angle = -45.00 degrees = -0.79 radians
+
+Distance traveled on Earth = -254.84 m,  max height = 63.71 m
+Distance traveled on Moon = -1543.21 m,  max height = 385.80 m
+Distance traveled on Mars = -663.13 m,  max height = 165.78 m
+
+Maximum distance traveled of the 3 planets = -254.84
+Maximum height reached of the 3 planets = 385.80
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-63.71, 47.78)
+ x2, y2 (-127.42, 63.71)
+ x3, y3 (-191.13, 47.78)
+ x4, y4 (-254.84, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-385.80, 289.35)
+ x2, y2 (-771.60, 385.80)
+ x3, y3 (-1157.41, 289.35)
+ x4, y4 (-1543.21, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-165.78, 124.34)
+ x2, y2 (-331.57, 165.78)
+ x3, y3 (-497.35, 124.34)
+ x4, y4 (-663.13, 0.00)
+
+Press any key to continue . . .
+
+
+-- A negative distance and positive height will be the outcome if you enter a negative angle, because the object is going backwards.
+
+
+
+
+
+
+
+What happens if large speeds are entered?:
+
+Input of speed = 100000000000000000000000000000000000000
+Output:
+Trajectory Plotter!
+Enter a speed of launch (mps): 100000000000000000000000000000000000000
+Enter the angle of launch (in degrees): 45
+Speed = 99999996802856929000000000000000000000.00 mps, Angle = 45.00 degrees = 0
+.79 radians
+
+Distance traveled on Earth = 1.#J m,  max height = -1.#J m
+Distance traveled on Moon = 1.#J m,  max height = -1.#J m
+Distance traveled on Mars = 1.#J m,  max height = -1.#J m
+
+Maximum distance traveled of the 3 planets = 1.#J
+Maximum height reached of the 3 planets = -1.#J
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (1.#J, -1.#J)
+ x2, y2 (1.#J, -1.#J)
+ x3, y3 (1.#J, -1.#J)
+ x4, y4 (1.#J, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (1.#J, -1.#J)
+ x2, y2 (1.#J, -1.#J)
+ x3, y3 (1.#J, -1.#J)
+ x4, y4 (1.#J, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (1.#J, -1.#J)
+ x2, y2 (1.#J, -1.#J)
+ x3, y3 (1.#J, -1.#J)
+ x4, y4 (1.#J, 0.00)
+
+Press any key to continue . . .
+
+
+-- You will get overflow when the number is too large.
+
+
+
+
+
+
+
+
+What happens if a speed of zero is entered?:
+
+Input of speed = 0
+Output:
+Trajectory Plotter!
+Enter a speed of launch (mps): 0
+Enter the angle of launch (in degrees): 45
+Speed = 0.00 mps, Angle = 45.00 degrees = 0.79 radians
+
+Distance traveled on Earth = 0.00 m,  max height = -1.#J m
+Distance traveled on Moon = 0.00 m,  max height = -1.#J m
+Distance traveled on Mars = 0.00 m,  max height = -1.#J m
+
+Maximum distance traveled of the 3 planets = 0.00
+Maximum height reached of the 3 planets = -1.#J
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, -1.#J)
+ x2, y2 (0.00, -1.#J)
+ x3, y3 (0.00, -1.#J)
+ x4, y4 (0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, -1.#J)
+ x2, y2 (0.00, -1.#J)
+ x3, y3 (0.00, -1.#J)
+ x4, y4 (0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, -1.#J)
+ x2, y2 (0.00, -1.#J)
+ x3, y3 (0.00, -1.#J)
+ x4, y4 (0.00, 0.00)
+
+Press any key to continue . . .
+
+
+-- When a speed of zero is entered, you will get zero distance, yet an odd max height (-1.#J) because object is not moving.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

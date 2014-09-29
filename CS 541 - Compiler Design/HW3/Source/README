@@ -1,0 +1,26 @@
+cs541 - Compiler Design
+Ashkan Hosseini
+
+This program uses CUP to build a parser for the CSX langauge.
+An Abstract Syntax Tree is built using the parser and the program
+  is reconstructed and output to show correct parse.
+
+-- Files --
+  README - this file
+  Makefile - make file for building and testing the program
+  test.csx - test file used by Make to test the program
+  csx.cup - The cup file that describes how CUP should build the parser
+  csx.jlex - The JLEX file from Program 2 that is used to build the scanner
+  Scanner.java - Uses generated scanner to feed parser
+  ast.java - Specifies nodes in the AST. Used by csx.cup to build AST
+  
+-- Building --
+To build the program, use the 'make' command
+
+-- Running --
+Write a test program into test.csx file and run 'make test'
+An Abstract Syntax Tree of the test program is built
+After the AST is built, the test program is reconstructed and output
+
+-- Please check files and  CSX langauge specs for more implementation details --
+

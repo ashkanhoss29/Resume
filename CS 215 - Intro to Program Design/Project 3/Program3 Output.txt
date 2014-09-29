@@ -1,0 +1,74 @@
+Ashkan Hosseini
+Section - 006
+3/30/10
+
+
+The output of the program:
+{"Explorer": {"name":"Ashkan","value" : 300 ,"fuel" : 1340 ,"crew" : 16 ,"speed" : 67000 ,"xpos" : 1 ,"ypos" : 2 ,"zpos" : 3 , "propulsion" : [ { "type":2, "consumption":50, "maxSpeed":4455, "powerFactor":4 } , { "type":3, "consumption":0,"maxSpeed":0, "powerFactor":0 }], "sensors" : [ { "type":2, "consumption":24, "maxRange":1340, "deployed":false }], "weapons" : [{ "type":"Nuke", "ammo":10, "damage":100, "maxRange":450, "fired":false, "powerFactor":1000 },{ "type":"BB", "ammo":10, "damage":100, "maxRange":3, "fired":false, "powerFactor":1000 },{ "type":"Phase Cannon", "ammo":7, "damage":40, "maxRange":5000, "fired":true, "powerFactor":280 }]}}
+
+
+
+Webpage Output:
+
+Valid JSON, and of Explorer Object type with Weapon Extensions
+
+    * Ship name:Ashkan
+    * Fuel Level:1340
+    * Crew :16
+    * Speed :67000
+    * Current Position:1,2,3
+
+Propulsion Engine 1:
+
+    * Type: SOLAR_SAIL
+    * Consumption:
+    * maxSpeed: 4455
+    * powerFactor: 4
+
+Engine 2:
+
+    * Type: FUSION
+    * Consumption:
+    * maxSpeed: 0
+    * powerFactor: 0
+
+Sensor 1:
+
+    * Type: LIFEFORM
+    * Consumption:
+    * maxRange: 1340
+    * Deployed:
+
+Weapon 1:
+
+    * Type: Nuke
+    * Ammo: 10
+    * Damage: 100
+    * MaxRange: 450
+    * Fired:
+    * powerFactor: 1000
+
+Weapon 2:
+
+    * Type: BB
+    * Ammo: 10
+    * Damage: 100
+    * MaxRange: 3
+    * Fired:
+    * powerFactor: 1000
+
+Weapon 3:
+
+    * Type: Phase Cannon
+    * Ammo: 7
+    * Damage: 40
+    * MaxRange: 5000
+    * Fired: 1
+    * powerFactor: 280
+
+Valid Weaponized Explorer
+
+
+
+
+

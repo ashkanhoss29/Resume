@@ -1,0 +1,69 @@
+Bad Cases:
+
+
+****Lighthouse Location Calculator****
+
+Enter the x and y of the first observer: 1 2
+Enter the x and y of the second observer: 3 2
+Enter the x and y of the third observer: 4 2
+
+The three observers are at
+(1, 2)
+(3, 2)
+(4, 2)
+
+The center of the circle is at (-1.#IND, 1.#INF)
+The radius of the circle is -1.#IND
+Press any key to continue . . .
+
+
+
+
+
+
+****Lighthouse Location Calculator****
+
+Enter the x and y of the first observer: 1 1
+Enter the x and y of the second observer: 1 1
+Enter the x and y of the third observer: 1 1
+
+The three observers are at
+(1, 1)
+(1, 1)
+(1, 1)
+
+The center of the circle is at (-1.#IND, -1.#IND)
+The radius of the circle is -1.#IND
+Press any key to continue . . .
+
+
+
+
+
+
+****Lighthouse Location Calculator****
+
+Enter the x and y of the first observer: 1 2
+Enter the x and y of the second observer: 3 4
+Enter the x and y of the third observer: 5 6
+
+The three observers are at
+(1, 2)
+(3, 4)
+(5, 6)
+
+The center of the circle is at (1.#INF, 1.#INF)
+The radius of the circle is 1.#INF
+Press any key to continue . . .
+
+
+
+
+
+
+
+
+
+
+
+

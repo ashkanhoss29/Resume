@@ -1,0 +1,85 @@
+Ashkan Hosseini
+
+
+Outputs:
+
+****Intersection Calculator****
+
+Enter the x and y of the first point on line1: 1 1
+Enter the x and y of the second point on line1: 5 5
+
+Enter the x and y of the first point on line2: 0 6
+Enter the x and y of the second point on line2: 6 0
+
+Line 1:  (1, 1)  and (5, 5)
+Equation of Line 1:  y = 1 x + 0
+
+Line 2:  (0, 6)  and (6, 0)
+Equation of Line 2:  y = -1 x + 6
+
+Point of intersection = (3, 3)
+Press any key to continue . . .
+
+
+
+****Intersection Calculator****
+
+Enter the x and y of the first point on line1: -1 -1
+Enter the x and y of the second point on line1: -5 -5
+
+Enter the x and y of the first point on line2: 0 -6
+Enter the x and y of the second point on line2: -6 0
+
+Line 1:  (-1, -1)  and (-5, -5)
+Equation of Line 1:  y = 1 x + 0
+
+Line 2:  (0, -6)  and (-6, 0)
+Equation of Line 2:  y = -1 x + -6
+
+Point of intersection = (-3, -3)
+Press any key to continue . . .
+
+
+
+****Intersection Calculator****
+
+Enter the x and y of the first point on line1: -50 50
+Enter the x and y of the second point on line1: 60 200
+
+Enter the x and y of the first point on line2: 300 400
+Enter the x and y of the second point on line2: 25 34
+
+Line 1:  (-50, 50)  and (60, 200)
+Equation of Line 1:  y = 1.36364 x + 118.182
+
+Line 2:  (300, 400)  and (25, 34)
+Equation of Line 2:  y = 1.33091 x + 0.72726
+
+Point of intersection = (-3588.89, -4775.76)
+Press any key to continue . . .
+
+
+
+****Intersection Calculator****
+
+Enter the x and y of the first point on line1: 54.5 23.23
+Enter the x and y of the second point on line1: 63.76 10.555
+
+Enter the x and y of the first point on line2: -10.745 20
+Enter the x and y of the second point on line2: 15 1
+
+Line 1:  (54.5, 23.23)  and (63.76, 10.555)
+Equation of Line 1:  y = -1.36879 x + 97.8291
+
+Line 2:  (-10.745, 20)  and (15, 1)
+Equation of Line 2:  y = -0.738007 x + 12.0701
+
+Point of intersection = (135.956, -88.2667)
+Press any key to continue . . .
+
+
+
+
+
+
+

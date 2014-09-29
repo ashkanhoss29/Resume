@@ -1,0 +1,64 @@
+Ashkan Hosseini
+
+
+Design:
+
+1. Get the coordinates of the first point of line1
+	1.1 Declare a and b for x and y of the first point as type float
+	1.2 Ask the user to input the x and y of the first point of line1
+	1.3 Input the values the user entered into variables a and b
+
+
+2. Get the coordinates of the second point of line1
+	2.1 Declare c and d for the x and y of the second point as type float
+	2.2 Ask the user to input the x and y of the first point of line1
+	2.3 Input the values the user entered into variables c and d
+
+
+3. Get the coordinates of the first point of line2
+	3.1 Declare e and f for the x and y of the first point as type float
+	3.2 Ask the user to input the x and y of the fist point of line2
+	3.3 Input the values the user entered into variables e and f
+
+
+4. Get the coordinates of the second point of line2
+	4.1 Declare g and h for the x and y of the second point as type float
+	4.2 Ask the user to input x and y of the second point of line2
+	4.3 Input the values the user entered into variables g and h
+
+
+5. Ouput the coordinates and equations of the two lines
+	5.1 Output the coordinates of line1
+	5.2 Output the equation of line1
+	5.3 Output the coordinates of line2
+	5.4 Output the equation of line2
+
+
+6. Check to see whether or not the lines are similar, parallel, or neither
+	6.1 Check to see if the slopes of the lines match.
+	6.2 If the slopes match, check to see if the y-intercepts match as well, and if so tell the user that the lines they entered are the same
+	6.3 Tell the user that the lines they have entered are parallel if the slopes match but the y-intercepts do not
+	6.4 Continue the calculation and output of the intersection if the lines are not similar or parallel 
+
+
+7. Calculate and output the point of intersection (if the lines are not similar or parallel)
+	7.1 Put in variables into equation of slope to calculate slope
+	7.2 Put in variables into the y-intercept equation to calculate the y-intercept
+	7.3 Put in variables into the "x coordinate of intersection" equation to calculate the x coordinate of the point of intersection
+	7.4 Put in varaibles into the "y coordinate of intersection" equation to calculate the y coordinate of the point of intersection
+	7.5 Output the coordinates for the point of intersection 
+
+
+8. Draw the two lines and their intersection
+	8.1 Call the graphics.h library
+	8.2 Use window statement from graphics library to create a window
+	8.3 Use statement: line (x1, y1, x2, y2); to draw line1 by replacing the x and y variables by a,b,c,d
+	8.4 Use statement: line (x1, y1, x2, y2); to draw line2 by replacing the x and y variables by e,f,g,h
+	8.5 Use statement: circle (x, y, radius); to draw a circle at the point of intersection
+
+
+
+
+
+
+

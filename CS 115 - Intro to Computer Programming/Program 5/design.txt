@@ -1,0 +1,45 @@
+Ashkan Hosseini
+
+
+Design:
+
+1.  Create function to get 16 strings and randomly swap those strings
+	1.1  Declare string array with 16 positions
+	1.2  Get eight strings from a text file
+		1.2.1  Have user enter the name of file
+		1.2.2  Open file with the name the user input
+		1.2.3  Read in eight strings and input them in 8 positions of string array
+		1.2.4  Close file
+	1.3  Duplicate eight strings read in to other positions of the string 
+             array so you have two sets of the same eight strings
+	1.4  Generate random numbers 0 to 15 and use them for array 
+             positions to randomly swap strings of string array
+
+
+2.  Create a function to get the user to input a valid number 
+	2.1  Declare an integer variable to store users input
+	2.2  Tell the user to input a number between 1 and 16
+	2.3  Store the users input number into integer variable
+	2.4  Use if statement to check whether user entered valid number
+
+
+3.  Compare two inputs from user and count how many turns user took
+	3.1  Call function from step 2 to get number from user twice
+	3.2  Use if statement to determine whether or not 
+	     the string at a given position should be output
+	     positions are the same or not
+	3.3  Declare a bool array to keep track of what strings should be output
+		3.3.1  If for the current turn the user has chosen a number, make the position
+		       of the bool array true
+		3.3.2  If the strings match keep the bool array at 
+                       that position true, otherwise return to false
+
+
+4.  Output to the console a grid that shows the "cards"
+	4.1  Create a function to output the top and bottom of grid
+	4.2  Create a function to output the rest of the grid, with 4 rows and 4 columns
+		4.2.1  Loop to determine which row should be output
+		4.2.2  Loop inside the other to determine which column in the row should be output
+		4.2.3  If statement to determine whether or not the number or string should be output
+			4.2.3.1  If the bool array is false, display number
+			4.2.3.2  If the bool array is true, display the string

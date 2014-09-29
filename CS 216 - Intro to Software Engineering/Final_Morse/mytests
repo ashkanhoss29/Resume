@@ -1,0 +1,20 @@
+#!/bin/tcsh
+
+#Make sure files exist
+if( -e makefile ) then
+	echo "makefile found, trying make"
+	make
+	if( -e runme ) then
+		echo "Success! Testing runme"
+		if ( -e testdata.txt ) then
+			./runme < testdata.txt
+		else
+			echo "No testdata.txt found"
+		endif
+	else
+		echo "No runme"
+	endif
+else
+	echo "No makefile"
+endif
+

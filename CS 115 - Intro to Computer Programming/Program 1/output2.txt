@@ -1,0 +1,14 @@
+****Lighthouse Location Calculator****
+
+Enter the x and y of the first observer: 3 3
+Enter the x and y of the second observer: 5 6
+Enter the x and y of the third observer: 2 -3
+
+The three observers are at
+(3, 3)
+(5, 6)
+(2, -3)
+
+The center of the circle is at (13.5, -1.83333)
+The radius of the circle is 11.559
+Press any key to continue . . .

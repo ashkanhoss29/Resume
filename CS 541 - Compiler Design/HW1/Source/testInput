@@ -1,0 +1,58 @@
+insert kentucky 1848
+  insert florida 1845
+lookup Kentucky
+lookup Florida
+lookup Hawaii
+insert kentucky 1836
+open
+insert kentucky 1836
+lookup Kentucky
+dump
+lookup Florida
+global Florida
+close
+lookup Kentucky
+lookup Florida
+close
+lookup Kentucky
+close
+close
+open
+close
+dump
+insert kentucky 1000
+dump
+notacommand
+open
+insert kentucky 1100
+insert florida 1200
+insert michigan 1300
+dump
+open
+insert kentucky 2100
+insert kentucky 2200
+insert michigan 2200
+dump
+lookup MICHIGAN
+global KENTUCKY
+open
+open
+open
+lookup michigaN
+global Michigan
+close
+close
+close
+dump
+close
+close
+close
+lookup kentucky
+global kentucky
+dump
+open
+insert Kentucky kentucky
+lookup kentucky
+quit
+
+

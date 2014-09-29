@@ -1,0 +1,32 @@
+cs541 - Compiler Design
+Ashkan Hosseini
+
+This program adds Type Checking to the HW3 program.
+Type checking is again done for the CSX language.
+The type checking is built into the AST. Each node
+	of the AST has a typeCheck() method that will
+	do type checking and call any child nodes typeCheck().
+
+-- Files --
+  README - this file.
+  Makefile - make file for building and testing the program.
+  test1.csx - first test file: everything should be correct.
+  test2.csx - second test file: mix of correct and incorrect typing.
+  test3.csx - third test file: most lines contain type errors.
+  csx.cup - The cup file that describes how CUP should build the parser.
+  csx.jlex - The jlex file that is used by JLEX to buld the scanner.
+  Scanner.java - Uses generated scanner to feed parser.
+  ast.java - Specifies nodes in the AST. Used by csx.cup to build AST.
+           - Contains checkType() methods and other type checking tools.
+  SymbolTable.java - a symbol table used by ast.java to keep track of 
+                     declared variables and their types.
+  Symb.java - basic unit used by SymbolTable; contains variable name.
+  SymbolInfo.java - subclass of Symb.java; adds Kind and Type information.
+  SymbolInfoMethod.java - subclass of SymbolInfo; adds method parameter info.
+  Kinds.java - list of allowable kinds (ie. Variable, Value, Array, etc.).
+  Types.java - list of allowable types (ie. int, char, bool, etc.).
+  DuplicateException.java - used by SymbolTable to indicate duplicate entry.
+  EmptySTException.java - used by SymbolTable to indicate no scope access.
+  P4.java - driver; scans and parses csx test files, then runs AST type checker
+
+-- For more specific implementation specifics, please check individual files --

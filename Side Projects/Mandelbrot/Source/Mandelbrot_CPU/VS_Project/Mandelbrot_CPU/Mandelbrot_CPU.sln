@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mandelbrot_CPU", "CS535_Program2\CS535_Program2.vcxproj", "{901BF5F2-2611-40B0-8431-DDEA2CC1B529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{901BF5F2-2611-40B0-8431-DDEA2CC1B529}.Debug|Win32.ActiveCfg = Debug|Win32
+		{901BF5F2-2611-40B0-8431-DDEA2CC1B529}.Debug|Win32.Build.0 = Debug|Win32
+		{901BF5F2-2611-40B0-8431-DDEA2CC1B529}.Release|Win32.ActiveCfg = Release|Win32
+		{901BF5F2-2611-40B0-8431-DDEA2CC1B529}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

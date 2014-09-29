@@ -1,0 +1,41 @@
+cs541 - Compiler Design
+Ashkan Hosseini
+
+This program is an implementation of a block-structured symbol table.
+
+-- Files --
+  README - this file
+  Makefile - make file for building and testing the program
+  testInput - test file used by Make to test the program
+  P1.java - driver that reads user commands; used for testing
+  SymbolTable.java - the primary file; contains table operations
+  Symbol.java - the implementation for symbols in our symbol table
+  TestSymb.java - extends Symbol for testing purposes (holds an integer)
+  EmptySTException.java - thrown by SymbolTable to indicate no open scopes
+  DuplicateException.java - thrown to indicate duplicate entry
+
+-- Building --
+To build the program, use the 'make' command
+
+-- Running --
+There are 7 possible commands:
+ - insert: add a new element to the symbol table
+ - open: add a new scope to symbol table
+ - close: remove a scope from symbol table
+ - lookup: search front scope for symbol
+ - global: search symbol table for symbol
+ - dump: output the string representation of symbol table
+ - quit: end the program
+For testing, write commands in a file named testInput and run 'make test'
+A testInput file is provided.
+
+-- About SymbolTable --
+The HashMap and LinkedList classes are the primary components.
+ - HashMap is used as the method of storage for symbols
+ - LinkedList is used as a method to keep track of scope.
+There is one LinkedList object; named scopes_
+When a new scope is opened, a HashMap object is pushed to the end of scopes_
+Initially on program start, there is one HashMap in scopes_
+
+-- Please check the internal Java docs for further implementation details --
+

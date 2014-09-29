@@ -1,0 +1,57 @@
+java -classpath ./classes P1 < testInput
+Enter symbol: Enter associated integer: (kentucky:1848) entered into symbol table.
+Enter symbol: Enter associated integer: (florida:1845) entered into symbol table.
+Enter symbol: (kentucky:1848) found in top scope
+Enter symbol: (florida:1845) found in top scope
+Enter symbol: Hawaii not found in top scope
+Enter symbol: Enter associated integer: kentucky already entered into scope
+New scope opened.
+Enter symbol: Enter associated integer: (kentucky:1836) entered into symbol table.
+Enter symbol: (kentucky:1836) found in top scope
+{kentucky=(kentucky:1836)}
+{florida=(florida:1845), kentucky=(kentucky:1848)}
+Enter symbol: Florida not found in top scope
+Enter symbol: (florida:1845) found in symbol table
+Top scope closed.
+Enter symbol: (kentucky:1848) found in top scope
+Enter symbol: (florida:1845) found in top scope
+Top scope closed.
+Enter symbol: There is no scope open
+There is no scope open.
+There is no scope open.
+New scope opened.
+Top scope closed.
+Enter symbol: Enter associated integer: There is no scope open
+Command not found
+New scope opened.
+Enter symbol: Enter associated integer: (kentucky:1100) entered into symbol table.
+Enter symbol: Enter associated integer: (florida:1200) entered into symbol table.
+Enter symbol: Enter associated integer: (michigan:1300) entered into symbol table.
+{michigan=(michigan:1300), florida=(florida:1200), kentucky=(kentucky:1100)}
+New scope opened.
+Enter symbol: Enter associated integer: (kentucky:2100) entered into symbol table.
+Enter symbol: Enter associated integer: kentucky already entered into scope
+Enter symbol: Enter associated integer: (michigan:2200) entered into symbol table.
+{michigan=(michigan:2200), kentucky=(kentucky:2100)}
+{michigan=(michigan:1300), florida=(florida:1200), kentucky=(kentucky:1100)}
+Enter symbol: (michigan:2200) found in top scope
+Enter symbol: (kentucky:2100) found in symbol table
+New scope opened.
+New scope opened.
+New scope opened.
+Enter symbol: michigaN not found in top scope
+Enter symbol: (michigan:2200) found in symbol table
+Top scope closed.
+Top scope closed.
+Top scope closed.
+{michigan=(michigan:2200), kentucky=(kentucky:2100)}
+{michigan=(michigan:1300), florida=(florida:1200), kentucky=(kentucky:1100)}
+Top scope closed.
+Top scope closed.
+There is no scope open.
+Enter symbol: There is no scope open
+Enter symbol: kentucky not found in symbol table
+New scope opened.
+Enter symbol: Enter associated integer: The input is not an integer
+Enter symbol: kentucky not found in top scope
+Testing done

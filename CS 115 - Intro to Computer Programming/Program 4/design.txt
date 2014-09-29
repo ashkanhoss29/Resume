@@ -1,0 +1,54 @@
+Ashkan Hosseini
+
+Design:
+
+
+1. Get user input for different values:
+	1.1 Get users input for a number between 0 and 36
+		1.1.1 Variable type int to store value
+		1.1.2 Function to get users input
+		1.1.3 Use of if statement to check whether user entered correct type of input
+	1.2 Get users input for their wager
+		1.2.1 Variable type float for user to be able to enter cents
+		1.2.2 Function to get users input
+		1.2.3 If statement to check to see whether or not user entered correct value based on how much they have 
+	1.3 Get the choice of the user for three choices
+		1.3.1 Variable type char to store users input as character
+		1.3.2 Function that will accept different characters (example E, R, or H)
+		1.3.3 Check to see whether user input correct character based on which choice is being presented to them
+
+
+2. Get random number for ball spin:
+	2.1 Variable type int to store value of randomly generated number
+	2.2 Function to generate a random number between 0 and 36
+	2.3 Generate random number based on time for best results
+
+3. Simulate spin
+	3.1 Function to display spin:
+	3.2 Create delay for output to console for added suspense and realism
+	3.3 Draw an animation
+		3.3.1 Draw a circle representing the ball
+		3.3.2 Use a loop to add to the circles coordinate each time loop runs
+		3.3.4 Delay each loop by a number of seconds so graphics will animate
+
+4. Calculate winnings:
+	4.1 Variables type float to store winnings. Float so winnings can be stored with cent values
+	4.2 Function to calculate winnings based on what user inputs for the four different variables
+	4.3 Check to see whether randomly generate variables match users inputs
+	4.4 Add or subtract winnings to total. Variable total type float for cent values
+	4.5 Output to the user their winnings after added to stake
+
+5. Check to see whether or not player can continue, and if so if they want to play again or quite
+	5.1 Variable stake to store how much user has at the beginning and end of main() function
+	5.2 Create loop in main() to be able to rerun program
+	5.3 At the end of loop check to see whether or not user has any money.  If not end loop.
+	5.4 If user has enough money, ask them if they want to play again or quite
+
+
+
+
+
+
+
+
+

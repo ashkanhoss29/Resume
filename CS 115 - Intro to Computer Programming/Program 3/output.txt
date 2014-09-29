@@ -1,0 +1,428 @@
+Ashkan Hosseini
+
+
+
+Outputs:
+
+
+No.1 (small values):
+
+Trajectory Plotter!
+Enter a speed of launch (mps): 5
+Enter the angle of launch (in degrees): 10
+Speed = 5.00 mps, Angle = 10.00 degrees = 0.17 radians
+
+Distance traveled on Earth = 0.87 m,  max height = 0.04 m
+Distance traveled on Moon = 5.28 m,  max height = 0.23 m
+Distance traveled on Mars = 2.27 m,  max height = 0.10 m
+
+Maximum distance traveled of the 3 planets = 5.28
+Maximum height reached of the 3 planets = 0.23
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.22, 0.03)
+ x2, y2 (0.44, 0.04)
+ x3, y3 (0.65, 0.03)
+ x4, y4 (0.87, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (1.32, 0.17)
+ x2, y2 (2.64, 0.23)
+ x3, y3 (3.96, 0.17)
+ x4, y4 (5.28, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.57, 0.07)
+ x2, y2 (1.13, 0.10)
+ x3, y3 (1.70, 0.07)
+ x4, y4 (2.27, 0.00)
+
+Press any key to continue . . .
+
+
+
+
+No.2 (medium values):
+
+Trajectory Plotter!
+Enter a speed of launch (mps): 45
+Enter the angle of launch (in degrees): 45
+Speed = 45.00 mps, Angle = 45.00 degrees = 0.79 radians
+
+Distance traveled on Earth = 206.42 m,  max height = 51.61 m
+Distance traveled on Moon = 1250.00 m,  max height = 312.50 m
+Distance traveled on Mars = 537.14 m,  max height = 134.28 m
+
+Maximum distance traveled of the 3 planets = 1250.00
+Maximum height reached of the 3 planets = 312.50
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (51.61, 38.70)
+ x2, y2 (103.21, 51.61)
+ x3, y3 (154.82, 38.70)
+ x4, y4 (206.42, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (312.50, 234.38)
+ x2, y2 (625.00, 312.50)
+ x3, y3 (937.50, 234.37)
+ x4, y4 (1250.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (134.28, 100.71)
+ x2, y2 (268.57, 134.28)
+ x3, y3 (402.85, 100.71)
+ x4, y4 (537.14, 0.00)
+
+Press any key to continue . . .
+
+
+
+
+No.3 (large speed):
+
+Trajectory Plotter!
+Enter a speed of launch (mps): 100000000000000000000000000000000000000
+Enter the angle of launch (in degrees): 45
+Speed = 99999996802856929000000000000000000000.00 mps, Angle = 45.00 degrees = 0
+.79 radians
+
+Distance traveled on Earth = 1.#J m,  max height = -1.#J m
+Distance traveled on Moon = 1.#J m,  max height = -1.#J m
+Distance traveled on Mars = 1.#J m,  max height = -1.#J m
+
+Maximum distance traveled of the 3 planets = 1.#J
+Maximum height reached of the 3 planets = -1.#J
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (1.#J, -1.#J)
+ x2, y2 (1.#J, -1.#J)
+ x3, y3 (1.#J, -1.#J)
+ x4, y4 (1.#J, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (1.#J, -1.#J)
+ x2, y2 (1.#J, -1.#J)
+ x3, y3 (1.#J, -1.#J)
+ x4, y4 (1.#J, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (1.#J, -1.#J)
+ x2, y2 (1.#J, -1.#J)
+ x3, y3 (1.#J, -1.#J)
+ x4, y4 (1.#J, 0.00)
+
+Press any key to continue . . .
+
+
+
+
+No.4 (decimal numbers):
+
+Trajectory Plotter!
+Enter a speed of launch (mps): 50.67
+Enter the angle of launch (in degrees): 25.12
+Speed = 50.67 mps, Angle = 25.12 degrees = 0.44 radians
+
+Distance traveled on Earth = 201.19 m,  max height = 23.58 m
+Distance traveled on Moon = 1218.32 m,  max height = 142.81 m
+Distance traveled on Mars = 523.52 m,  max height = 61.36 m
+
+Maximum distance traveled of the 3 planets = 1218.32
+Maximum height reached of the 3 planets = 142.81
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (50.30, 17.69)
+ x2, y2 (100.60, 23.58)
+ x3, y3 (150.89, 17.69)
+ x4, y4 (201.19, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (304.58, 107.10)
+ x2, y2 (609.16, 142.81)
+ x3, y3 (913.74, 107.10)
+ x4, y4 (1218.32, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (130.88, 46.02)
+ x2, y2 (261.76, 61.36)
+ x3, y3 (392.64, 46.02)
+ x4, y4 (523.52, 0.00)
+
+Press any key to continue . . .
+
+
+
+
+No.5 (speed = 0):
+
+Trajectory Plotter!
+Enter a speed of launch (mps): 0
+Enter the angle of launch (in degrees): 45
+Speed = 0.00 mps, Angle = 45.00 degrees = 0.79 radians
+
+Distance traveled on Earth = 0.00 m,  max height = -1.#J m
+Distance traveled on Moon = 0.00 m,  max height = -1.#J m
+Distance traveled on Mars = 0.00 m,  max height = -1.#J m
+
+Maximum distance traveled of the 3 planets = 0.00
+Maximum height reached of the 3 planets = -1.#J
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, -1.#J)
+ x2, y2 (0.00, -1.#J)
+ x3, y3 (0.00, -1.#J)
+ x4, y4 (0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, -1.#J)
+ x2, y2 (0.00, -1.#J)
+ x3, y3 (0.00, -1.#J)
+ x4, y4 (0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, -1.#J)
+ x2, y2 (0.00, -1.#J)
+ x3, y3 (0.00, -1.#J)
+ x4, y4 (0.00, 0.00)
+
+Press any key to continue . . .
+
+
+
+
+No.6 (angle = 0):
+
+Trajectory Plotter!
+Enter a speed of launch (mps): 50
+Enter the angle of launch (in degrees): 0
+Speed = 50.00 mps, Angle = 0.00 degrees = 0.00 radians
+
+Distance traveled on Earth = 0.00 m,  max height = 0.00 m
+Distance traveled on Moon = 0.00 m,  max height = 0.00 m
+Distance traveled on Mars = 0.00 m,  max height = 0.00 m
+
+Maximum distance traveled of the 3 planets = 0.00
+Maximum height reached of the 3 planets = 0.00
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, 0.00)
+ x2, y2 (0.00, 0.00)
+ x3, y3 (0.00, 0.00)
+ x4, y4 (0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, 0.00)
+ x2, y2 (0.00, 0.00)
+ x3, y3 (0.00, 0.00)
+ x4, y4 (0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (0.00, 0.00)
+ x2, y2 (0.00, 0.00)
+ x3, y3 (0.00, 0.00)
+ x4, y4 (0.00, 0.00)
+
+Press any key to continue . . .
+
+
+
+
+No.7 (angle = 90):
+
+Trajectory Plotter!
+Enter a speed of launch (mps): 50
+Enter the angle of launch (in degrees): 90
+Speed = 50.00 mps, Angle = 90.00 degrees = 1.57 radians
+
+Distance traveled on Earth = -0.00 m,  max height = 127.42 m
+Distance traveled on Moon = -0.00 m,  max height = 771.60 m
+Distance traveled on Mars = -0.00 m,  max height = 331.56 m
+
+Maximum distance traveled of the 3 planets = -0.00
+Maximum height reached of the 3 planets = 771.60
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-0.00, 95.57)
+ x2, y2 (-0.00, 127.42)
+ x3, y3 (-0.00, 95.57)
+ x4, y4 (-0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-0.00, 578.70)
+ x2, y2 (-0.00, 771.60)
+ x3, y3 (-0.00, 578.70)
+ x4, y4 (-0.00, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-0.00, 248.67)
+ x2, y2 (-0.00, 331.56)
+ x3, y3 (-0.00, 248.67)
+ x4, y4 (-0.00, 0.00)
+
+Press any key to continue . . .
+
+
+
+
+No.8 (angle > 90):
+
+Trajectory Plotter!
+Enter a speed of launch (mps): 50
+Enter the angle of launch (in degrees): 100
+Speed = 50.00 mps, Angle = 100.00 degrees = 1.75 radians
+
+Distance traveled on Earth = -87.16 m,  max height = 123.58 m
+Distance traveled on Moon = -527.81 m,  max height = 748.34 m
+Distance traveled on Mars = -226.80 m,  max height = 321.57 m
+
+Maximum distance traveled of the 3 planets = -87.16
+Maximum height reached of the 3 planets = 748.34
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-21.79, 92.68)
+ x2, y2 (-43.58, 123.58)
+ x3, y3 (-65.37, 92.68)
+ x4, y4 (-87.16, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-131.95, 561.25)
+ x2, y2 (-263.90, 748.34)
+ x3, y3 (-395.86, 561.25)
+ x4, y4 (-527.81, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-56.70, 241.18)
+ x2, y2 (-113.40, 321.57)
+ x3, y3 (-170.10, 241.18)
+ x4, y4 (-226.80, 0.00)
+
+Press any key to continue . . .
+
+
+
+
+No.9 (Negative speed):
+
+Trajectory Plotter!
+Enter a speed of launch (mps): -50
+Enter the angle of launch (in degrees): 45
+Speed = -50.00 mps, Angle = 45.00 degrees = 0.79 radians
+
+Distance traveled on Earth = 254.84 m,  max height = 63.71 m
+Distance traveled on Moon = 1543.21 m,  max height = 385.80 m
+Distance traveled on Mars = 663.13 m,  max height = 165.78 m
+
+Maximum distance traveled of the 3 planets = 1543.21
+Maximum height reached of the 3 planets = 385.80
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (63.71, 47.78)
+ x2, y2 (127.42, 63.71)
+ x3, y3 (191.13, 47.78)
+ x4, y4 (254.84, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (385.80, 289.35)
+ x2, y2 (771.60, 385.80)
+ x3, y3 (1157.41, 289.35)
+ x4, y4 (1543.21, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (165.78, 124.34)
+ x2, y2 (331.57, 165.78)
+ x3, y3 (497.35, 124.34)
+ x4, y4 (663.13, 0.00)
+
+Press any key to continue . . .
+
+
+
+No.10 (negative angle):
+
+Trajectory Plotter!
+Enter a speed of launch (mps): 50
+Enter the angle of launch (in degrees): -45
+Speed = 50.00 mps, Angle = -45.00 degrees = -0.79 radians
+
+Distance traveled on Earth = -254.84 m,  max height = 63.71 m
+Distance traveled on Moon = -1543.21 m,  max height = 385.80 m
+Distance traveled on Mars = -663.13 m,  max height = 165.78 m
+
+Maximum distance traveled of the 3 planets = -254.84
+Maximum height reached of the 3 planets = 385.80
+
+For Earth, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-63.71, 47.78)
+ x2, y2 (-127.42, 63.71)
+ x3, y3 (-191.13, 47.78)
+ x4, y4 (-254.84, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-385.80, 289.35)
+ x2, y2 (-771.60, 385.80)
+ x3, y3 (-1157.41, 289.35)
+ x4, y4 (-1543.21, 0.00)
+
+For Moon, the 5 points of the parabola would be:
+ x0, y0 (0.00, 0.00)
+ x1, y1 (-165.78, 124.34)
+ x2, y2 (-331.57, 165.78)
+ x3, y3 (-497.35, 124.34)
+ x4, y4 (-663.13, 0.00)
+
+Press any key to continue . . .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

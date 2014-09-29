@@ -1,0 +1,1 @@
+Solve the N Queens problem using different algorithms and visually display the results.

@@ -1,0 +1,126 @@
+Ashkan Hosseini
+
+
+
+Output 1
+Testing:
+	Number out of range for 0-36
+	Number in range for 0-36
+	Wager zero
+	Wager less than zero
+	Wager in range
+	Lower case letters for choice
+	Upper case letters for choice
+	'n' for choice
+	Playing again
+	Not playing again
+	
+
+Spin and Win!!! Roulette!!!
+Your stake is $100
+
+What number do you want to bet on? (0-36) 56        //number out of range (higher)
+You have entered an invalid number!
+What number do you want to bet on? (0-36) -4        //number out of range (lower)
+You have entered an invalid number!
+What number do you want to bet on? (0-36) 12        //number in range
+How much do you want to bet? 0                      //zero on wager
+Please enter a number greater than zero             
+How much do you want to bet? -100                   //negative wager
+Please enter a number greater than zero             
+How much do you want to bet? 50                     //number in range of stake
+Do you want to bet on even/odd/no bet? (E/O/N) E    //upper case letters:
+Do you want to bet on red/black/no bet? (R/B/N) B
+Do you want to bet on high/low/no bet? (H/L/N) N
+
+Spinning ..... 1. 2. 3.. 4.And the number is 4
+
+You win two times your bet on odd/even!  $100
+You won three times your bet on red/black!  $150
+Now you have $350
+
+Do you want to play again? (y/n) y                  //Play again 'y'
+Spin and Win!!! Roulette!!!
+Your stake is $350
+
+What number do you want to bet on? (0-36) 36        //boundery numbers:
+How much do you want to bet? 350
+Do you want to bet on even/odd/no bet? (E/O/N) o    //lower case numbers:
+Do you want to bet on red/black/no bet? (R/B/N) r
+Do you want to bet on high/low/no bet? (H/L/N) n
+
+Spinning ..... 1. 2. 3.. 4.And the number is 0
+
+You lost your bet on odd/even!  $350
+You won three times your bet on red/black!  $1050
+Now you have $1050
+
+Do you want to play again? (y/n) n                  //Play again 'n'
+You left the game with $1050
+Press any key to continue . . .
+
+
+
+
+Output 2
+Testing:
+	Game over / running out of money
+
+
+Spin and Win!!! Roulette!!!
+Your stake is $100
+
+What number do you want to bet on? (0-36) 12
+How much do you want to bet? 100
+Do you want to bet on even/odd/no bet? (E/O/N) n
+Do you want to bet on red/black/no bet? (R/B/N) n
+Do you want to bet on high/low/no bet? (H/L/N) l
+
+Spinning ..... 1. 2. 3.. 4.And the number is 33
+
+You lost your bet on high/low!  $100
+Now you have $0
+
+Game Over! You are out of money!
+You left the game with $0
+Press any key to continue . . .
+
+
+
+
+Output 3
+Testing
+	Invalid types for choices
+
+
+Spin and Win!!! Roulette!!!
+Your stake is $100.00
+
+What number do you want to bet on? (0-36) 15
+How much do you want to bet? 50
+Do you want to bet on even/odd/no bet? (E/O/N) 0
+Invalid type!
+Do you want to bet on even/odd/no bet? (E/O/N) e
+Do you want to bet on red/black/no bet? (R/B/N) t
+Invalid type!
+Do you want to bet on red/black/no bet? (R/B/N) r
+Do you want to bet on high/low/no bet? (H/L/N) test
+Invalid type!
+Do you want to bet on high/low/no bet? (H/L/N) Invalid type!
+Do you want to bet on high/low/no bet? (H/L/N) Invalid type!
+Do you want to bet on high/low/no bet? (H/L/N) Invalid type!
+Do you want to bet on high/low/no bet? (H/L/N) l
+
+Spinning ..... 1. 2. 3.. 4.And the number is 27
+
+You lost your bet on odd/even!  $50.00
+You won three times your bet on red/black!  $150.00
+You lost your bet on high/low!  $50.00
+Now you have $150.00
+
+Do you want to play again? (y/n) n
+You left the game with $150.00
+Press any key to continue . . .
+
+
+

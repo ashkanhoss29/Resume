@@ -1,0 +1,22 @@
+Ashkan Hosseini
+
+
+Working through a problem
+
+You should choose whatever numbers you want to fill in these blanks.
+x1 = 1	y1 = 1
+x2 = 5 	y2 = 5
+x3 = 0 	y3 = 6
+x4 = 6 	y4 = 0
+
+Use a calculator as needed
+
+Slope and y-intercept of line 1
+Slope = 1
+y-intercept = 0
+
+Slope and y-intercept of line 2
+Slope = -1
+y-intercept = 6
+
+Intersection point = (3, 3) 

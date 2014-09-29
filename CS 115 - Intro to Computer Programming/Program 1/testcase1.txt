@@ -1,0 +1,15 @@
+Working through a problem
+
+You should choose whatever numbers you want to fill in these blanks.
+a = 2 	b = 2
+c = 3 	d = 4
+e = 1 	f = -3
+
+Use a calculator as needed and calculate these numbers by hand, by plugging your chosen numbers into the equations given.
+
+Center of Circle
+x = 9.5
+y = -.5
+
+Radius of Circle
+radius = 7.90569415 

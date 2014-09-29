@@ -1,0 +1,23 @@
+cs541 - Compiler Design
+Ashkan Hosseini
+
+This program is a scanner for the CSX programming language.
+It uses JLex to generate the scanner.
+
+-- Files --
+  README - this file
+  Makefile - make file for building and testing the pgoram
+  tiny.csx - test file used by Make to test the scanner
+  P2.java - driver that reads the test file and outputs tokens
+  csx.jlex - JLex file that is used to generate the scanner
+  sym.java - contains symbol constants for mapping tokens
+
+-- Building --
+To build the scanner program, use the 'make' command.
+
+-- Running --
+Write a CSX file named tiny.csx and use the 'make test' command.
+This will read the file and output token information with associated
+ line and column numbers.
+
+-- Please check the internal documenation and csx.jlex file for details --

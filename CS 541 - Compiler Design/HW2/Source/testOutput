@@ -1,0 +1,253 @@
+java -classpath ./classes P2 tiny.csx
+Begin test of CSX scanner.
+1:1 	class
+1:7 	Identifier (test)
+1:12 	{
+6:1 	int
+6:5 	Identifier (i)
+6:7 	=
+6:9 	Integer literal (0)
+6:25 	;
+7:1 	int
+7:5 	Identifier (j)
+7:7 	=
+7:9 	Integer literal (-123)
+7:13 	;
+8:1 	int
+8:5 	Identifier (bigPos)
+8:12 	=
+8:14 	Integer literal (2147483647)
+8:52 	;
+9:1 	int
+9:5 	Identifier (bigNeg)
+9:12 	=
+9:14 	Integer literal (-2147483648)
+9:52 	;
+10:1 	bool
+10:6 	Identifier (ja)
+10:9 	=
+10:11 	true
+10:15 	;
+11:1 	bool
+11:6 	Identifier (nein)
+11:11 	=
+11:13 	false
+11:18 	;
+12:1 	char
+12:6 	Identifier (c)
+12:8 	=
+12:10 	Char literal ('c')
+12:13 	;
+13:1 	char
+13:6 	Identifier (nl)
+13:9 	=
+13:11 	Char literal ('\n')
+13:15 	;
+14:1 	char
+14:6 	Identifier (tab)
+14:10 	=
+14:12 	Char literal ('\t')
+14:16 	;
+15:1 	char
+15:6 	Identifier (bslash)
+15:13 	=
+15:15 	Char literal ('\\')
+15:19 	;
+16:1 	char
+16:6 	Identifier (tic)
+16:10 	=
+16:12 	Char literal ('\'')
+16:16 	;
+17:1 	const
+17:7 	Identifier (ten)
+17:11 	=
+17:13 	Integer literal (10)
+17:15 	;
+18:1 	int
+18:5 	Identifier (ar)
+18:7 	[
+18:8 	Integer literal (100)
+18:11 	]
+18:12 	;
+20:1 	void
+20:6 	Identifier (p)
+20:7 	(
+20:8 	int
+20:12 	Identifier (j)
+20:13 	)
+20:15 	{
+21:19 	print
+21:24 	(
+21:25 	String literal ("Ans = ")
+21:33 	,
+21:35 	Identifier (j)
+21:36 	+
+21:37 	Integer literal (1)
+21:38 	,
+21:40 	String literal ("\n")
+21:44 	)
+21:45 	;
+22:1 	}
+24:1 	int
+24:5 	Identifier (f)
+24:6 	(
+24:7 	int
+24:11 	Identifier (i)
+24:12 	)
+24:13 	{
+25:9 	Identifier (ar)
+25:11 	[
+25:12 	Identifier (i)
+25:13 	]
+25:15 	=
+25:17 	Integer literal (100)
+25:20 	;
+26:2 	return
+26:9 	Identifier (i)
+26:10 	+
+26:11 	Integer literal (1)
+26:12 	;
+27:1 	}
+29:1 	read
+29:5 	(
+29:6 	Identifier (b)
+29:7 	)
+29:8 	;
+31:1 	if
+31:4 	(
+31:5 	Identifier (b)
+31:7 	||
+31:10 	true
+31:14 	)
+32:2 	Identifier (b)
+32:4 	=
+32:6 	Identifier (b)
+32:8 	&&
+32:11 	false
+32:16 	;
+33:1 	else
+33:6 	Identifier (b)
+33:8 	=
+33:10 	!
+33:11 	(
+33:12 	Identifier (b)
+33:14 	||
+33:17 	true
+33:21 	)
+33:22 	;
+35:1 	Identifier (L)
+35:2 	:
+35:4 	while
+35:10 	(
+35:11 	Identifier (i)
+35:13 	!=
+35:16 	Integer literal (0)
+35:17 	)
+35:19 	{
+36:2 	Identifier (i)
+36:4 	=
+36:6 	Identifier (i)
+36:7 	*
+36:8 	Identifier (i)
+36:9 	/
+36:10 	Integer literal (2)
+36:11 	;
+36:13 	Identifier (break)
+36:19 	Identifier (L)
+36:20 	;
+37:2 	Identifier (i)
+37:4 	=
+37:6 	Identifier (i)
+37:7 	/
+37:8 	(
+37:9 	Identifier (i)
+37:10 	-
+37:11 	Integer literal (2)
+37:12 	)
+37:13 	;
+37:15 	Identifier (continue)
+37:24 	Identifier (L)
+38:1 	}
+40:1 	if
+40:4 	(
+40:5 	Identifier (i)
+40:7 	==
+40:10 	Integer literal (10)
+40:13 	||
+40:16 	Identifier (i)
+40:18 	<
+40:20 	Integer literal (21)
+40:23 	||
+40:26 	Identifier (i)
+40:28 	>
+40:30 	Integer literal (-17)
+40:34 	||
+40:37 	Identifier (i)
+40:39 	!=
+40:42 	Integer literal (123)
+40:45 	)
+40:47 	{
+41:2 	print
+41:7 	(
+41:9 	Identifier (i)
+41:10 	)
+41:11 	;
+42:2 	Identifier (p)
+42:3 	(
+42:4 	Integer literal (17)
+42:6 	)
+42:7 	;
+43:1 	}
+45:1 	if
+45:4 	(
+45:5 	Identifier (i)
+45:7 	>=
+45:10 	Identifier (f)
+45:11 	(
+45:12 	Integer literal (-3)
+45:14 	)
+45:16 	||
+45:19 	Identifier (i)
+45:21 	<=
+45:24 	Identifier (f)
+45:25 	(
+45:26 	Identifier (i)
+45:27 	-
+45:28 	Integer literal (1)
+45:29 	)
+45:30 	)
+46:2 	print
+46:7 	(
+46:9 	Identifier (i)
+46:11 	,
+46:13 	Identifier (f)
+46:14 	(
+46:15 	Identifier (i)
+46:16 	)
+46:18 	,
+46:20 	String literal ("\n")
+46:24 	)
+46:25 	;
+49:1 	Invalid token (^)
+49:3 	Invalid token (#)
+49:5 	Invalid token (`)
+52:1 	Invalid token (")
+52:2 	Identifier (token1)
+53:1 	Identifier (token2)
+53:7 	Invalid token (")
+56:1 	bool
+57:1 	char
+58:1 	class
+59:1 	const
+60:1 	else
+61:1 	false
+62:1 	if
+63:1 	int
+64:1 	read
+65:1 	return
+66:1 	true
+67:1 	void
+68:1 	while
+69:1 	print
+71:1 	}
+End test of CSX scanner.

@@ -1,0 +1,18 @@
+Ashkan Hosseini
+
+
+Test Cases:
+(Expected and actuals for Earth.  See output.txt for entire actual output)
+
+Description                     Input (speed)     Input (angle)         Expected (max distance)      Expected (max height)          Actual (max distance)      Actual (max height)                                         
+
+Normal case, small values       5                 10                    0.87                         0.04                           0.84                       0.04
+Normal case, medium values      45                45                    206.42                       51.61                          206.42                     51.61
+Normal case, large speed        10000..           45                    overflow                     overflow                       1.#J                       1.#J
+Normal case, decimal            50.67             25.12                 201.19                       23.58                          201.19                     23.58
+Unusual case, speed = 0         0                 45                    0                            undifined                      0.00                       -1.#J
+Unusual case, angle = 0         50                0                     0                            0                              0.00                       0.00
+Unusual case, angle = 90        50                90                    -0                           127.42                         -0.00                      127.42
+Unusaul case, angle > 90        50                100                   -87.16                       123.58                         -87.16                     123.58
+Unusaul case, negative speed    -50               45                    254.84                       63.71                          254.84                     63.71
+Unusaul case, negative          50                -45                   -254.84                      63.71                          -254.84                    63.71

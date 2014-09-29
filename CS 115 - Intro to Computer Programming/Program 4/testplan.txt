@@ -1,0 +1,46 @@
+Ashkan Hosseini
+
+
+Test Plan:
+
+Test Case                           Input                 Expected Output                  Actual Output
+
+Normal, in range (0-36)             12                    How much to bet?                 How much do you want to bet?
+Normal, in range (wager = 100)      50                    Bet even/odd?                    Do you want to bet on even/odd/no bet? (E/O/N)
+Normal, upper case letter (E/O/N)   E                     Bet red/black?                   Do you want to bet on red/black/no bet? (R/B/N)
+Normal, lower case (H/L/N)          l                     spinning...                      Spinning ..... 1. 2. 3.. 4.And the number is 
+Normal, no for choice (E/O/N)       n                     Bet red/black?                   Do you want to bet on red/black/no bet? (R/B/N)
+Normal, play again                  y                     Roulette!                        Spin and Win!!! Roulette!!!
+Normal, dont play again             n                     You left the game                You left the game with $1050
+Boundary, (0-36)                    36                    How much to bet?                 How much do you want to bet?
+Boundary, wager = 350               350                   Bet even/odd                     Do you want to bet on even/odd/no bet? (E/O/N)
+Error, zero wager                   0                     Enter greater than zero          Please enter a number greater than zero
+Error, negative wager               -100                  Enter greater than zero          Please enter a number greater than zero
+Error, wager < input (wager = 100)  600                   That is too much!                That is too much!
+Error, # > 36 (0-36)                56                    Invalid number                   You have entered an invalid number!
+Error, # < 0 (0-36)                 -4                    Invalid number                   You have entered an invalid number!
+Error, invalid type (R/B/N)         t                     Invalid type!                    Invalid type!
+Error, invalid type (E/O/N)         0                     Invalid type!                    Invalid type!
+Error, invalid type (H/L/N)         test                  ?                                Invalid type! (multiple times...see output.txt for more detail)
+Error, invalid type (0-36)           b                    ?                                Infinite loop of next output
+Error, invalid type for wager        n                    ?                                Infinite loop of next output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+cs541 - Compiler Design
+Ashkan Hosseini
+
+This program adds Code Generation to the HW4 program.
+Code Generation will generate code based on the input CSX program.
+The code generated is Java byte code.
+
+-- Files --
+  README - this file.
+  Maefile - make file for building and testing the program.
+  test.csx - the test CSX program
+  csx.cup - The cup file that describes how CUP should build the parser.
+  csx.jlex - The jlex file that describes how JLEX should build the scanner.
+  Scanner.java - Uses generated scanner to feed parser.
+  ast.java - Specifies nodes in the AST. Used by csx.cup to build AST.
+           - Contains checkTypes() methods and other type checking tools.
+           - Contains cg() methods and other Code Generation tools.
+  SymbolTable.java - a symbol table used by ast.java to keep track of
+                     declared variables and their types and kinds.
+  Symb.java - basic unit used by SymbolTable; contains variable name.
+  SymbolTable.java - subclass of Symb.java; adds Kinds and Type information
+                   - contains variable index info for Code Generation
+  SymbolTableMethod.java - subclass of SymbolInfo; adds method parm info
+  Kinds.java - list of allowable kinds in a CSX program
+  Types.java - list of allowable types in a CSX program
+  DuplicateException.java - used by SymbolTable to indicate duplicate entry
+  EmptySTException.java - used by SymbolTable to indicate no scope access
+  P5.java - driver; scans, parses, type checks, and generates code for test file
+
+  -- For more specific implementation specifics, please check individual files --
+
+  -- KNOWN NOT WORKING --
+  Most type check errors from proj4
+  Arrays
+  Nested while loops
+// grader: initialized local constants not implemented.  -2
+// grader: verify error on:  if (boolVar && boolVar) ...  -1
+// grader: I fixed that error, but Boolean operations are not implemented. -2
+// grader: ! x computes backwards. -1
+// grader: < comparisons between true and false backwards.  -1
+// grader: array subscripting not implemented.  -3
+// grader: actual parameters never type check right. -0
+// grader: I can't fix function call to work at all.  -6
+// grader: fails to truncate character to 8 bits.  -1
+// grader: cast from int to bool wrong. -1
+// grader: disallows intArrayParam[i] on LHS of assignment.  -1
+// grader: disallows assignment of string literal to conformant array. -1

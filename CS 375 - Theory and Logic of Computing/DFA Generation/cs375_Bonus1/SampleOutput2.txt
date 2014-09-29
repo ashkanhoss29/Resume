@@ -1,0 +1,51 @@
+Test 100-letter:
+
+GTGGCTGGCCTAAAAAAATCGACCAACGCCCGCGTTTCACAATCCTAACCCGCGCCGGCCCCGCCGGGGCCTCGCCCGAC
+CCAGACACCAGTGAGCACCA
+w3 = CCA : 4 found
+w4 = ACCA : 3 found
+w5 = CACCA : 2 found
+w6 = GCACCA : 1 found
+w7 = AGCACCA : 1 found
+w8 = GAGCACCA : 1 found
+w9 = TGAGCACCA : 1 found
+w10 = GTGAGCACCA : 1 found
+
+
+Test GACGA DFA Generation:
+
+ G  A  T  C
+___________
+ 1  0  0  0
+ 1  2  0  0  G
+ 1  0  0  3  GA
+ 4  0  0  0  GAC
+ 1  5  0  0  GACG
+
+
+Test AAGCATTTAAGCA DFA Generation:
+
+ G  A  T  C
+___________
+ 0  1  0  0
+ 0  2  0  0  A
+ 3  2  0  0  AA
+ 0  1  0  4  AAG
+ 0  5  0  0  AAGC
+ 0  2  6  0  AAGCA
+ 0  1  7  0  AAGCAT
+ 0  1  8  0  AAGCATT
+ 0  9  0  0  AAGCATTT
+ 0  10  0  0  AAGCATTTA
+ 11  2  0  0  AAGCATTTAA
+ 0  1  0  12  AAGCATTTAAG
+ 0  13  0  0  AAGCATTTAAGC
+
+
+Asymptotic Analysis Comparison:
+
+100,000 Time Test
+Avarage time = 0
+
+200,000 Time Test
+Avarage time = 1

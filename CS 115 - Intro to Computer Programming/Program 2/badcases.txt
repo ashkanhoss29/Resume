@@ -1,0 +1,32 @@
+Ashkan Hosseini
+
+
+badcases:
+
+1. When you input the points of two lines with similar slopes you will get the following:
+	Point of intersection = (1.#QNAN, 1.#QNAN)
+
+
+2. When you enter the points of a vertical line, you will get the following (considering line1 is the vertical line):
+	Equation of Line 1:  y = 1.#INF x + -1.#INF
+	Point of intersection = (1.#QNAN, 1.#QNAN)
+
+
+3. If you enter zero's for all of the variables, you will get the following output:
+
+	****Intersection Calculator****
+
+	Enter the x and y of the first point on line1: 0 0
+	Enter the x and y of the second point on line1: 0 0
+
+	Enter the x and y of the first point on line2: 0 0
+	Enter the x and y of the second point on line2: 0 0
+
+	Line 1:  (0, 0)  and (0, 0)
+	Equation of Line 1:  y = -1.#IND x + -1.#IND
+
+	Line 2:  (0, 0)  and (0, 0)
+	Equation of Line 2:  y = -1.#IND x + -1.#IND
+
+	Point of intersection = (1.#QNAN, 1.#QNAN)
+	Press any key to continue . . .
