@@ -1,3 +1,6 @@
+// Name: Ashkan Hosseini
+// Date: Spring 2013
+
 package cs321.hw1;
 
 public class CS321HW1
