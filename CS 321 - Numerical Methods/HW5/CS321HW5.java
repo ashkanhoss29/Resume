@@ -1,3 +1,6 @@
+// Name: Ashkan Hosseini
+// Date: Spring 2013
+
 package cs321.hw5;
 
 /*
@@ -164,7 +167,6 @@ public class CS321HW5 {
 			k++;
 		}
 		
-		System.out.println(
-						"k: " + k + " | " + x[0] + " " + x[1] + " " + x[2] + " " + x[3]);
+		System.out.println("k: " + k + " | " + x[0] + " " + x[1] + " " + x[2] + " " + x[3]);
 	}
 }
