@@ -63,14 +63,11 @@ public class P1
       }
       // Test open new scope
       else if("open".equals(input)) {
-// grader: you must allow 1-character input abbreviations.  -2
-// grader: command should be case-insensitive.  -2
         symbolTable.openScope();
         System.out.println("New scope opened.");
       }
       // Test close of front scope
       else if("close".equals(input)) {
-// grader: I like a space before "(" after if, catch, while.  -0
         try {
           symbolTable.closeScope();
           System.out.println("Top scope closed.");

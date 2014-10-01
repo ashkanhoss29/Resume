@@ -20,16 +20,12 @@ public class SymbolTable
    * scope. The implementation is specified here (rather than interface) to
    * avoid constant casting
    */
-  // private final LinkedList<Map> scopes_;
-// grader: Map is not a complete type.  I fixed here and elsewhere. -2
   private final LinkedList<Map<String, Symbol>> scopes_;
-// grader: why the underscore?  It hurts readability.  -1
 
   /**
    * Initialize SymbolTable to contain a single scope that is initially empty.
    */
   SymbolTable() {
-    // scopes_ = new LinkedList<Map>();
     scopes_ = new LinkedList<Map<String, Symbol>>();
     openScope();
   }
@@ -142,9 +138,7 @@ public class SymbolTable
     // Because we need to traverse the scopes from front to back, the
     //  descendingIterator() method is called to get an iterator with
     //  reverse mapping.
-    // final Iterator<Map> iterator = scopes_.descendingIterator();
     final Iterator<Map<String, Symbol>> iterator = scopes_.descendingIterator();
-// grader: instead of iterator say: for (Map<String, Symbol> aScope : scopes) ...  -0
     while(iterator.hasNext()) {
       symbolTableString.append('{');
       final Map<String, Symbol> scope = iterator.next();
@@ -177,6 +171,5 @@ public class SymbolTable
    */
   void dump(final PrintStream printStream) {
     printStream.print(toString());
-// grader: or: printStream.print(this).  automatically calls toString().  -0
   }
 }
