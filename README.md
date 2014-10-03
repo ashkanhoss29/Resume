@@ -4,16 +4,24 @@ Resume
 Here is a select list of projects I have worked on in the past for school and on the side.
 These projects are organized by course or side project.
 
-I enjoy and work on graphics programming the most, so here are some images of past projects!
+I love computer graphics! Below I have included images and links to some past projects in CG.
 
-![CS 335 Final](https://github.com/ashkanhoss29/Resume/blob/master/CS%20335%20-%20Graphics%20Programming/Final%20Project/Images/shotFinal1.jpg)
+![Graphics and Multimedia (CS 335) Final Project](/CS%20335%20-%20Graphics%20Programming)
+![CS 335 Final](/CS%20335%20-%20Graphics%20Programming/Final%20Project/Images/shotFinal1.jpg)
 
+Senior Design Project (CS 499)
+![CS 499](/CS%20499%20-%20Senior%20Design%20Project/Images/Jupiter_LimbShader.png)
+
+Intermediate Computer Graphics (CS 535) Final Project
 ![CS 535 Final](/CS%20535%20-%20Intermediate%20Computer%20Graphics/Raytracer/Images/glass.jpg)
 
+DirectX Side Project
 ![DirectX Project](/Side%20Projects/First_3D%20%28DirectX%29/Images/normalMapping.jpg)
 
+Mandelbrot Side Project
 ![Mandelbrot Project](/Side%20Projects/Mandelbrot/Images/Spiral.png)
 
+Graphics and Multimedia (CS 335) Programming Assignment
 ![Minesweeper](/CS%20335%20-%20Graphics%20Programming/Minesweeper/Images/pic2.png)
 
 
