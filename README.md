@@ -10,3 +10,10 @@ I enjoy and work on graphics programming the most, so here are some images of pa
 
 ![CS 535 Final](/CS%20535%20-%20Intermediate%20Computer%20Graphics/Raytracer/Images/glass.jpg)
 
+![DirectX Project](/Side%20Projects/First_3D%20%28DirectX%29/Images/normalMapping.jpg)
+
+![Mandelbrot Project](/Side%20Projects/Mandelbrot/Images/Spiral.png)
+
+![Minesweeper](/CS%20335%20-%20Graphics%20Programming/Minesweeper/Images/pic2.png)
+
+
