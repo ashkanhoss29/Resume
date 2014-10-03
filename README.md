@@ -6,7 +6,7 @@ These projects are organized by course or side project.
 
 I love computer graphics! Below I have included images and links to some past projects in CG.
 
-![Graphics and Multimedia (CS 335) Final Project](/CS%20335%20-%20Graphics%20Programming/Final%20Project)
+![Graphics and Multimedia (CS 335) Final Project](https://github.com/ashkanhoss29/Resume/tree/master/CS%20335%20-%20Graphics%20Programming/Final%20Project)
 ![CS 335 Final](/CS%20335%20-%20Graphics%20Programming/Final%20Project/Images/shotFinal1.jpg)
 
 ![Senior Design Project (CS 499)](/CS%20499%20-%20Senior%20Design%20Project)
