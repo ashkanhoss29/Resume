@@ -1,5 +1,4 @@
 import java.io.*; // for PrintStream
-// grader: then just import PrintStream.  -0
 
 /**
  * cs541 Compiler Design
@@ -83,7 +82,6 @@ class ASTNode {
 	}
 
 	static void gen(String opcode, String operand1, int operand2) {
-// grader: you could use Java varargs to avoid all these overloaded versions. -0
 		afile.println("\t"+opcode+"\t"+operand1+" "+operand2);
 	}
 
@@ -215,7 +213,6 @@ class memberDeclsNode extends ASTNode {
 					final memberDeclsNode ms, final int line, final int col) {
 		super(line, col);
 		field = f;
-// grader: f is not a good parameter name.  -1
 		methods = m;
 		moreMembers = ms;
 	}
@@ -347,7 +344,7 @@ class declNode extends ASTNode {
 	}
 
 	void cg(boolean isLocal) {
-// grader: put at least a comment in empty methods.  -0
+		// no action
 	}
 
     static nullDeclNode NULL = new nullDeclNode();
@@ -777,8 +774,7 @@ class methodDeclNode extends ASTNode {
 				+ returnType.type.getDescriptor());
 		decls.cg();
 		args.cg();
-		gen(".limit", "stack", 30); // NOT SURE WHAT THIS DOES, JUST SET TO A LARGE NUMBER
-// grader: well, not too large.  30 is fine.  -0
+		gen(".limit", "stack", 30);
 		if (numberOfLocals > 0) {
 			gen(".limit", "locals", numberOfLocals);
 		}
@@ -1140,7 +1136,6 @@ class stmtsNode extends ASTNode {
 } // class stmtsNode 
 
 class nullStmtsNode extends stmtsNode {
-// grader: you could also avoid this class.  -0
 	nullStmtsNode() {
 		// no action
 	}
@@ -1177,7 +1172,6 @@ class asgNode extends stmtNode {
 
 	@Override
 	void cg() {
-		// TODO
 		source.cg();
 		// if (target.varName.idinfo.kind.var == Kinds.Array) // CHECK FOR ARRAY STORE
 		if (target.varName.idinfo.varIndex >= 0) {
@@ -1237,8 +1231,6 @@ class ifThenNode extends stmtNode {
 
 	@Override
 	void cg() {
-		// TODO
-// grader: looks complete to me; you can remove TODO, I think.  -0
 		String ifLabel;
 		String elseLabel;
 
@@ -1298,7 +1290,6 @@ class whileNode extends stmtNode {
 
 	@Override
 	void cg() {
-		// TODO
 		String loopLabel;
 		String exitLabel;
 
@@ -1345,8 +1336,6 @@ class readNode extends stmtNode {
 
 	@Override
 	void cg() {
-		// TODO
-// grader: looks complete to me; you can remove TODO, I think.  -0
 		reads.cg();
 	}
 
@@ -1380,7 +1369,6 @@ class readListNode extends stmtNode {
 
 	@Override
 	void cg() {
-		// TODO
 		switch (targetVar.varName.idinfo.type.val) {
 			case Types.Integer:
 				gen("invokestatic", "CSXLib/readInt()I");
@@ -1390,7 +1378,6 @@ class readListNode extends stmtNode {
 				break;
 			default:
 				throw new RuntimeException();
-// grader: don't throw raw RuntimeExceptions.  -1
 		}
 
 		if (targetVar.varName.idinfo.varIndex >= 0) {
@@ -1455,8 +1442,6 @@ class nullReadListNode extends readListNode {
 
 	@Override
 	void cg() {
-		// TODO
-// grader: looks complete to me; you can remove TODO, I think.  -0
 	}
 
 	@Override
@@ -1484,8 +1469,6 @@ class printNode extends stmtNode {
 
 	@Override
 	void cg() {
-		// TODO
-// grader: looks complete to me; you can remove TODO, I think.  -0
 		prints.cg();
 	}
 
@@ -1577,8 +1560,6 @@ class nullPrintListNode extends printListNode {
 
 	@Override
 	void cg() {
-		// TODO
-// grader: looks complete to me; you can remove TODO, I think.  -0
 	}
 
 	@Override
@@ -1607,8 +1588,6 @@ class callNode extends stmtNode {
 
 	@Override
 	void cg() {
-		// TODO
-// grader: looks complete to me; you can remove TODO, I think.  -0
 		args.cg();
 		gen("invokestatic", "test/"
 				+ methodName.idname 
@@ -1691,8 +1670,6 @@ class returnNode extends stmtNode {
 
 	@Override
 	void cg() {
-		// TODO
-// grader: looks complete to me; you can remove TODO, I think.  -0
 		if (returnVal.isNull()) {
 			gen("return");
 		}
@@ -1740,8 +1717,6 @@ class blockNode extends stmtNode {
 
 	@Override
 	void cg() {
-		// TODO
-// grader: looks complete to me; you can remove TODO, I think.  -0
 		decls.cg();
 		stmts.cg();
 	}
@@ -1948,8 +1923,6 @@ class binaryOpNode extends exprNode {
 
 	@Override
 	void cg() {
-		// TODO
-// grader: use a switch statement here.  -1
 		leftOperand.cg();
 		rightOperand.cg();
 		if (operatorCode == sym.PLUS) {
@@ -1998,7 +1971,6 @@ class binaryOpNode extends exprNode {
 			gen("ldc", 0);
 			genLabel(label1);
 		}
-// grader: I added the following to prevent stack errors.  -1
 	else { gen("pop"); } // grader
 	}
 
@@ -2095,7 +2067,6 @@ class unaryOpNode extends exprNode {
 
 	@Override
 	void cg() {
-		// TODO
 		operand.cg();
 		gen("ineg");
 	}
@@ -2128,7 +2099,6 @@ class castNode extends exprNode {
 
 	@Override
 	void cg() {
-		// TODO
 		operand.cg();
 		// Cast int or char to boolean
 		if (resultType.type.val == Types.Boolean 
@@ -2187,7 +2157,6 @@ class fctCallNode extends exprNode {
 
 	@Override
 	void cg() {
-		// TODO
 		args.cg();
 		gen("invokestatic", "test/"
 				+ methodName.idname 
@@ -2201,13 +2170,11 @@ class fctCallNode extends exprNode {
 		id = (SymbolInfo) st.globalLookup(methodName.idname);
 		methodName.idinfo = id; // save for cg()
 		if (id != null) {
-/* grader: I commented out this broken checking.  
 			if (id.kind.val == Kinds.Method) {
 				SymbolInfoMethod mId; // method decl
 				SymbolInfoMethod cId; // method call
 				mId = (SymbolInfoMethod) st.globalLookup(methodName.idname);
 				cId = new SymbolInfoMethod(methodName.idname, mId.kind, mId.type);
-// grader: cId.kindList is always null.  -4
 				args.checkTypes(cId);
 				if (mId.kindList.size() == cId.kindList.size()) {
 					for (int i = 0; i < mId.kindList.size(); i++) {
@@ -2236,7 +2203,6 @@ class fctCallNode extends exprNode {
                                            + "call.");
 				typeErrors++;
 			}
-*/
 			kind = id.kind;
 			type = id.type;
 		}
@@ -2268,7 +2234,6 @@ class identNode extends exprNode {
 
 	@Override
 	void cg() {
-		// TODO
 		gen("iload", idinfo.varIndex);
 	}
 
@@ -2309,7 +2274,6 @@ class nameNode extends exprNode {
 
 	@Override
 	void cg() {
-		// TODO
 		if (varName.idinfo.varIndex >= 0) {
 			gen("iload", varName.idinfo.varIndex);
 		}
@@ -2329,7 +2293,6 @@ class nameNode extends exprNode {
 			id = (SymbolInfo) st.globalLookup(varName.idname);
 			if (id != null) {
 				if (id.kind.val != Kinds.Array 
-// grader: you can combined these nested conditions.  -0
 						&& id.kind.val != Kinds.ArrayParm) {
 					System.out.println( error() + "Index attempt on a " 
 										+ id.kind.toString() + ".");
