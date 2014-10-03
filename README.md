@@ -22,6 +22,7 @@ I love computer graphics! Below I have included images and links to some past pr
 ![Mandelbrot Project](/Side%20Projects/Mandelbrot/Images/Spiral.png)
 
 ![Graphics and Multimedia (CS 335) Programming Assignment](/CS%20335%20-%20Graphics%20Programming/Minesweeper) 
+
 ![Minesweeper](/CS%20335%20-%20Graphics%20Programming/Minesweeper/Images/pic2.png)
 
 
