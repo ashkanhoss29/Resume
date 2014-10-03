@@ -33,15 +33,3 @@ The code generated is Java byte code.
   Most type check errors from proj4
   Arrays
   Nested while loops
-// grader: initialized local constants not implemented.  -2
-// grader: verify error on:  if (boolVar && boolVar) ...  -1
-// grader: I fixed that error, but Boolean operations are not implemented. -2
-// grader: ! x computes backwards. -1
-// grader: < comparisons between true and false backwards.  -1
-// grader: array subscripting not implemented.  -3
-// grader: actual parameters never type check right. -0
-// grader: I can't fix function call to work at all.  -6
-// grader: fails to truncate character to 8 bits.  -1
-// grader: cast from int to bool wrong. -1
-// grader: disallows intArrayParam[i] on LHS of assignment.  -1
-// grader: disallows assignment of string literal to conformant array. -1
