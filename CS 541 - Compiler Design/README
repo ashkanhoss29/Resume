@@ -1,0 +1,7 @@
+A compiler for a Java-lite language called CSX. The output is Java byte code.
+
+HW1 - Symbol Table
+HW2 - Scanner
+HW3 - Parser
+HW4 - Type Checker
+HW5 - Code Generation
