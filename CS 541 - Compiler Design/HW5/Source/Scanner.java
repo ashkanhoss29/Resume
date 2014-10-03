@@ -8,7 +8,6 @@ class Scanner {
 
 	public static void init(java.io.FileInputStream yyin) {
 		// not thread safe, but we only expect one thread.
-// grader: but easily remedied.  -0
 		if (lex == null) {
 			lex = new Yylex(yyin);
 		} else {
