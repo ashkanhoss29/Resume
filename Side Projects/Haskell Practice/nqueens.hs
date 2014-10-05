@@ -1,33 +1,26 @@
--- N Queens solvers: this program will find one solution to the nqueens problem.
--- This is my first Haskell program from scratch. IT IS NOT GOOD! Many improvements can be made.
--- Written for learning/practicing purposes only!
+-- Name: Ashkan Hosseini
+-- Date: 10/01/2014
 
--- Check if Q(x, y) conflicts with any Q(xl, yl) in the list
-checkM x y [] = True
-checkM x y (yl:xs) =
+-- N Queens solver: this program will find one solution to the nqueens problem.
+
+-- Return False if Q(x, y) conflicts with any Q(xl, yl) in the list
+checkQ :: Int -> Int -> Int -> Int -> [Int] -> Bool
+checkQ y p m n [] = True
+checkQ y p m n (yl:xs) =
 	let
-		xl = length xs + 1
-		is = (x /= xl) && (y /= yl) && (x + y /= xl + yl) && (x - y /= xl - yl)
-	in is && checkM x y (xs)
+		is = (y /= yl) && (p /= n + yl) && (m /= n - yl)
+	in is && checkQ y p m (n-1) xs
 
 -- Find y values associated with x values (indices) s.t. we get a solution
-findy y n l =
-	if y > n
-		then 
-			l
-		else
-			if checkM (length l + 1) y l
-				then 
-					if length l + 1 == n
-						then
-							y:l
-						else
-							let
-								xs = findy 1 n (y:l)
-							in if ((length xs) - 1) == length l
-								then
-									findy (y+1) n l
-								else
-									xs
-				else
-					findy (y + 1) n l
+nqueens :: Int -> Int -> [Int] -> [Int]
+nqueens y n l
+	| y > n = l
+	| not (checkQ y (x+y) (x-y) len l) = xd
+	| x == n = y:l
+	| length xs - 1 == len = xd
+	| otherwise = xs
+	where 
+		len = length l
+		x  = len + 1
+		xd = nqueens (y + 1) n l
+		xs = nqueens 1 n (y:l)
