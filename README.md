@@ -1,10 +1,10 @@
 Resume
 ======
 
-Here is a select list of projects I have worked on in the past for school and on the side.
-These projects are organized by course or side project.
+1. The Resume repo contains a select list of projects I have worked on in the past for school and on the side.
+These projects are organized by course or side project. I have included images of output for some of these, so check those out for a quick look at the results.
 
-I love computer graphics! Below I have included images and links to some past projects in CG.
+2. I love computer graphics! Below I have included images and links to some past projects in CG that are in this repo.
 
 [Graphics and Multimedia (CS 335) Final Project: Racing Game](https://github.com/ashkanhoss29/Resume/tree/master/CS%20335%20-%20Graphics%20Programming/Final%20Project)
 ![CS 335 Final](/CS%20335%20-%20Graphics%20Programming/Final%20Project/Images/shotFinal1.jpg)
